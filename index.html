@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs | Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                DecodeLabs
+            </div>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-btn" id="themeBtn">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                WELCOME TO MY PORTFOLIO
+            </p>
+
+            <h1>
+                Frontend Developer
+            </h1>
+
+            <p id="heroText">
+                I create clean, responsive and user-friendly websites
+                using modern web technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">
+                    View Projects
+                </a>
+
+                <button class="secondary-btn" id="changeTextBtn">
+                    Learn More
+                </button>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                alt="Frontend development workspace"
+            >
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>Building Digital Experiences</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+                    alt="Coding on computer"
+                >
+            </div>
+
+            <div class="about-text">
+
+                <h3>Passionate About Web Development</h3>
+
+                <p>
+                    I am learning frontend development and enjoy
+                    creating websites that are simple, attractive
+                    and easy to use.
+                </p>
+
+                <p>
+                    My focus is on HTML, CSS and JavaScript while
+                    continuously improving my design and development
+                    skills.
+                </p>
+
+                <button class="primary-btn" id="aboutBtn">
+                    Read More
+                </button>
+
+                <p id="aboutMessage" class="hidden-message">
+                    Thank you for visiting my portfolio!
+                    I am continuously learning and building new projects.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills-section" id="skills">
+
+        <div class="section-title">
+            <p>MY SKILLS</p>
+            <h2>Technologies I Work With</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">HTML</div>
+                <h3>HTML5</h3>
+                <p>
+                    Semantic and well-structured web pages.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">CSS</div>
+                <h3>CSS3</h3>
+                <p>
+                    Modern layouts, styling and responsive design.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">JS</div>
+                <h3>JavaScript</h3>
+                <p>
+                    Interactive and dynamic web experiences.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+
+        <div class="section-title">
+            <p>MY WORK</p>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-container">
+
+            <article class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80"
+                    alt="Website project"
+                >
+
+                <div class="project-content">
+
+                    <h3>Static Website</h3>
+
+                    <p>
+                        A clean website created using HTML and CSS.
+                    </p>
+
+                    <button class="project-btn">
+                        View Project
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80"
+                    alt="Responsive design project"
+                >
+
+                <div class="project-content">
+
+                    <h3>Responsive Design</h3>
+
+                    <p>
+                        A responsive layout that works on desktop,
+                        tablet and mobile devices.
+                    </p>
+
+                    <button class="project-btn">
+                        View Project
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+                    alt="Interactive web project"
+                >
+
+                <div class="project-content">
+
+                    <h3>Interactive Website</h3>
+
+                    <p>
+                        A webpage enhanced with JavaScript interactions.
+                    </p>
+
+                    <button class="project-btn">
+                        View Project
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-section" id="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contact-box">
+
+            <p>
+                Interested in working together?
+                Feel free to contact me.
+            </p>
+
+            <button class="primary-btn" id="contactBtn">
+                Show Contact
+            </button>
+
+            <p id="contactInfo" class="hidden-message">
+                Email: aiman@example.com
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p>
+            © 2026 DecodeLabs Frontend Project
+        </p>
+
+        <p>
+            Designed with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
